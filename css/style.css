@@ -233,15 +233,21 @@ div.language, div.social{
 #nav-footer{
     display: flex;
     /* debug */
-    min-width: 800px;
-    border:rgb(120, 48, 120) 2px dashed;
+    width: 50%;
+    /* border:rgb(120, 48, 120) 2px dashed; */
+    margin: 40px;
 }
+
+h4{
+    color:#8EA1E1;
+}
+
 
 div.col-footer{
     width: calc(100% / 4);
     /* debug */
-    background-color: #20B2AA;
-    border: rgb(255, 255, 255) 2px dashed;
+    /* background-color: #20B2AA; */
+    /* border: rgb(255, 255, 255) 2px dashed; */
 }
 
 /* regole per logo e bottone finale */
@@ -268,6 +274,11 @@ div.col-footer{
     /* debug */
     background-color: #FFB6C1;
     border:rgb(120, 48, 120) 2px dashed;
+}
+
+ul.footer-object li{
+    line-height: 40px;
+    color: white;
 }
 
 /* regole per pulsanti */
