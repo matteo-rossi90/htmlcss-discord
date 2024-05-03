@@ -27,9 +27,9 @@ ul.nav-list{
 
 /* definizione colonne */
 .col-nav{
-    min-width: 25%;
-    min-height: 40%;
-    line-height: 20px;
+    min-width: 250px;
+    min-height: 30px;
+    line-height: 25px;
 }
 
 div.col-nav a img{
@@ -45,12 +45,8 @@ li a{
     text-align: center;
     text-decoration: none;
     color: white;
-    margin: 0 10px;
+    margin: 0 20px;
 
-}
-
-#logo{
-    text-align: left;
 }
 
 #login {
@@ -66,6 +62,12 @@ div.row{
     align-items: center;
 }
 
+.jumbotron{
+    height: 450px;
+    background-image: url('../img/jumbo.png');
+    background-size: cover;
+}
+
 /* colore solo per le righe dispari */
 div.row:nth-child(odd){
     background-color: #D3D3D3;
@@ -77,12 +79,33 @@ div.row:nth-child(odd){
 
 /* box per il testo iniziale della prima parte */
 .text-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px auto;
+    width: 50%;
+}
+
+/* proprietà testo jumbotron */
+.text-content{
     /* debug */
-    min-height: 400px;
-    min-width: 700px;
-    background-color: #EE82EE; 
-    border:rgb(120, 48, 120) 2px dashed;
-    margin: 45px 0;
+    text-align: center;
+    color: white;
+    line-height: 30px;
+    /* background-color: #EE82EE;  */
+    /* border:rgb(120, 48, 120) 2px dashed; */
+    /* margin: 45px 0; */
+}
+
+.jumbo-paragraph{
+    font-size: 20px;
+    margin: 20px 0;
+}
+
+h1{
+    font-size: 50px;
+    margin: 20px 0;
+    padding: 10px;
 }
 
 /* box immagini */
@@ -199,8 +222,32 @@ div.col-footer{
 
 button {
     border-radius: 60px;
-    padding: 8px 16px;
+    padding: 10px 20px;
     border: none;
+    cursor: pointer;
+}
+
+div.btn-container{
+    flex-direction: row;
+    align-items: center;
+    margin: 20px;
+}
+
+div.btn-container > button {
+    margin: 0 10px;
+}
+
+.btn-input{
+    background-color: white;
+}
+
+.btn-text-input{
+    font-size: 16px;
+}
+
+.btn-open{
+    background-color: black;
+    color: white;
 }
 
 
