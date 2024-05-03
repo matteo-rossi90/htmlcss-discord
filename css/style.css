@@ -9,7 +9,7 @@
 /* regole barra di navigazione in alto */
 #navbar{
     height: 80px;
-    background-color: #3161E0;
+    background-color: #255EE9;
 }
 
 #navbar, #flex-content{
@@ -110,7 +110,7 @@ h1{
 /* box immagini */
 
 figure.image, aside.text, .box{
-    margin: 45px auto;
+    margin: 45px 40px;
 }
 
 figure.image {
