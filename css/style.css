@@ -2,6 +2,7 @@
 *{
     margin:0;
     box-sizing: border-box;
+    font-family: 'Whitney', Helvetica, Helvetica, Arial, sans-serif;
 }
 
 /* regole barra di navigazione in alto */
@@ -26,6 +27,7 @@ ul.nav-list{
 
 /* definizione colonne */
 .col-nav{
+    /* debug */
     min-width: 250px;
     min-height: 30px;
     line-height: 25px;
@@ -34,6 +36,7 @@ ul.nav-list{
 }
 
 .center{
+    /* Debug */
     min-width: 600px;
 }
 
@@ -56,6 +59,7 @@ li a{
 
 /* rettangoli */
 div.row{
+    /* debug */
     /* height: 500px; */
     display: flex;
     justify-content: center;
@@ -73,6 +77,7 @@ div.row:nth-child(odd){
 
 /* box per il testo iniziale della prima parte */
 .text-box{
+    /* debug */
     min-height: 400px;
     min-width: 700px;
     background-color: #EE82EE; 
@@ -92,6 +97,7 @@ div.box-row{
 }
 
 figure.image{
+    /* debug */
     min-height: 400px;
     min-width: 700px;
     background-color: #1E90FF;
@@ -100,6 +106,7 @@ figure.image{
 
 /* box testo affiancato a immagini */
 aside.text{
+    /* debug */
     min-height: 400px;
     min-width: 400px;
     background-color: #FFC0CB;
@@ -113,6 +120,7 @@ div.box-row{
 }
 
 .box{
+    /* debug */
     min-width: 1100px;
     min-height: 800px;
     background-color:#228B22;
@@ -129,6 +137,7 @@ aside.sidebar,
 #nav-footer{
     margin-top: 10px;
     margin-bottom: 25px;
+    /* debug */
     min-height: 600px;
 }
 
@@ -140,6 +149,7 @@ div.flex-footer{
 
 aside.sidebar{
     display: flex;
+    /* debug */
     min-width: 300px;
     background-color: #F08080;
     border: rgb(120, 48, 120) 2px dashed;
@@ -147,12 +157,14 @@ aside.sidebar{
 
 #nav-footer{
     display: flex;
+    /* debug */
     min-width: 800px;
     border:rgb(120, 48, 120) 2px dashed;
 }
 
 div.col-footer{
     width: calc(100% / 4);
+    /* debug */
     background-color: #20B2AA;
     border: rgb(255, 255, 255) 2px dashed;
 }
@@ -162,6 +174,7 @@ div.col-footer{
 #navbar-footer{
     display: flex;
     justify-content: center;
+    /* debug */
     height: 100px;
 }
 
@@ -169,14 +182,16 @@ div.col-footer{
     display:flex;
     align-items: center;
     justify-content: space-between;
+    /* debug */
     background-color: #7FFFD4;
     margin: 20px 0;
     min-width: 1100px;
 }
 
 .item-footer{
-    background-color: #FFB6C1;
     padding: 8px 16px;
+    /* debug */
+    background-color: #FFB6C1;
     border:rgb(120, 48, 120) 2px dashed;
 }
 
