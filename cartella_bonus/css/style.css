@@ -77,12 +77,8 @@ div.row{
 }
 
 /* colore solo per le righe dispari */
-div.row:nth-child(odd){
+div.colored{
     background-color: #D3D3D3;
-}
-
-#start{
-    background-color: #00008B;
 }
 
 /* box per il testo iniziale della prima parte */
@@ -316,8 +312,19 @@ div.btn-bottom{
     color:white;
 }
 
-/* Scritta sottolineata quando il curosre punta sull'oggetto */
+/* Scritta sottolineata quando il cursore punta sull'oggetto */
 
 li a:hover{
     text-decoration:underline;
+}
+
+.wave img, .wave2 img{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+
+.wave2{
+    background-color: #D3D3D3;
 }
