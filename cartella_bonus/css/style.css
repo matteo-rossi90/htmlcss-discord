@@ -164,7 +164,7 @@ div.box img{
     justify-content: center;
 }
 
-h3 {
+h3{
     font-size: 30px;
 }
 
@@ -285,6 +285,7 @@ div.btn-container > button {
 .btn-open{
     background-color: black;
     color: white;
+
 }
 
 div.btn-bottom{
