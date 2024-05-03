@@ -221,6 +221,7 @@ div.language, div.social{
 
 h4{
     color:#8EA1E1;
+    margin-left: 20px;
 }
 
 
@@ -278,6 +279,11 @@ div.btn-container > button {
     background-color: white;
 }
 
+.btn-input:hover{
+    background-color:#8ea1e1;
+    color: white;
+}
+
 .btn-text-input{
     font-size: 16px;
 }
@@ -286,6 +292,11 @@ div.btn-container > button {
     background-color: black;
     color: white;
 
+}
+
+.btn-open:hover{
+    background-color: white;
+    color: black;
 }
 
 div.btn-bottom{
@@ -300,3 +311,7 @@ div.btn-bottom{
     color: white;
 }
 
+.btn-download:hover{
+    background-color:#255EE9;
+    color:white;
+}
