@@ -125,6 +125,10 @@ figure.image {
     /* border: rgb(120, 48, 120) 2px dashed; */
 }
 
+figure.image img{
+    width: 100%;
+}
+
 div.box-row{
     display:flex;
     justify-content: center;
@@ -151,12 +155,28 @@ div.box-row{
     background-color: #D3D3D3;
 }
 
-.box{
+div.box{
     /* debug */
     /* min-width: 1100px; */
     /* min-height: 800px; */
     /* background-color:#228B22; */
     width: 70%;
+}
+
+div.box img{
+    display: flex;
+    align-items: center;
+}
+
+#item-big{
+    width: 100%;
+}
+
+#question{
+    display:flex;
+    align-items:center;
+    flex-direction:column;
+    justify-content: center;
 }
 
 /* regole parte footer */
@@ -238,6 +258,7 @@ button {
 }
 
 div.btn-container{
+    display: flex;
     flex-direction: row;
     align-items: center;
     margin: 20px;
@@ -260,4 +281,15 @@ div.btn-container > button {
     color: white;
 }
 
+div.btn-bottom{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+}
+
+.btn-download{
+    background-color: #8EA1E1;
+    color: white;
+}
 
