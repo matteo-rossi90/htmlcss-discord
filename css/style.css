@@ -7,16 +7,16 @@
 
 /* regole barra di navigazione in alto */
 #navbar{
-    height: 50px;
-    background-color: #ADD8E6;
+    height: 80px;
+    background-color: #3161E0;
 }
 
 #navbar, #flex-content{
     display: flex;
     justify-content: center;
     align-items: center;
-
 }
+
 
 ul.nav-list{
     display: flex;
@@ -27,12 +27,13 @@ ul.nav-list{
 
 /* definizione colonne */
 .col-nav{
-    /* debug */
-    min-width: 250px;
-    min-height: 30px;
-    line-height: 25px;
-    background-color: goldenrod;
-    border: 2px rgb(120, 48, 120) dashed;
+    min-width: 25%;
+    min-height: 40%;
+    line-height: 20px;
+}
+
+div.col-nav a img{
+    margin: 20px 0;
 }
 
 .center{
@@ -43,6 +44,7 @@ ul.nav-list{
 li a{
     text-align: center;
     text-decoration: none;
+    color: white;
     margin: 0 10px;
 
 }
@@ -59,8 +61,6 @@ li a{
 
 /* rettangoli */
 div.row{
-    /* debug */
-    /* height: 500px; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -195,5 +195,12 @@ div.col-footer{
     border:rgb(120, 48, 120) 2px dashed;
 }
 
+/* regole per pulsanti */
+
+button {
+    border-radius: 60px;
+    padding: 8px 16px;
+    border: none;
+}
 
 
