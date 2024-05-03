@@ -82,24 +82,27 @@ div.row:nth-child(odd){
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 20px auto;
-    width: 50%;
+    width: 55%;
+    margin: 0 auto;
 }
 
 /* proprietà testo jumbotron */
 .text-content{
     /* debug */
     text-align: center;
-    color: white;
-    line-height: 30px;
     /* background-color: #EE82EE;  */
     /* border:rgb(120, 48, 120) 2px dashed; */
     /* margin: 45px 0; */
 }
 
-.jumbo-paragraph{
+.text-content-white{
+    color: white;
+}
+
+.paragraph{
     font-size: 20px;
     margin: 20px 0;
+    line-height: 30px;
 }
 
 h1{
@@ -111,7 +114,15 @@ h1{
 /* box immagini */
 
 figure.image, aside.text, .box{
-    margin: 45px 0;
+    margin: 45px auto;
+}
+
+figure.image {
+    /* min-height: 400px; */
+    /* min-width: 700px; */
+    width: 40%;
+    /* background-color: #1E90FF; */
+    /* border: rgb(120, 48, 120) 2px dashed; */
 }
 
 div.box-row{
@@ -119,21 +130,19 @@ div.box-row{
     justify-content: center;
 }
 
-figure.image{
-    /* debug */
-    min-height: 400px;
-    min-width: 700px;
-    background-color: #1E90FF;
-    border: rgb(120, 48, 120) 2px dashed;
-}
-
 /* box testo affiancato a immagini */
 aside.text{
     /* debug */
-    min-height: 400px;
-    min-width: 400px;
-    background-color: #FFC0CB;
-    border: rgb(120, 48, 120) 2px dashed;
+    /* min-height: 400px; */
+    /* min-width: 400px; */
+    width: 25%;
+    /* background-color: #FFC0CB; */
+    /* border: rgb(120, 48, 120) 2px dashed; */
+}
+
+h2{
+    font-size: 40px;
+    margin: 20px 0;
 }
 
 /* parte con immagine e testo in basso */
@@ -144,9 +153,10 @@ div.box-row{
 
 .box{
     /* debug */
-    min-width: 1100px;
-    min-height: 800px;
-    background-color:#228B22;
+    /* min-width: 1100px; */
+    /* min-height: 800px; */
+    /* background-color:#228B22; */
+    width: 70%;
 }
 
 /* regole parte footer */
