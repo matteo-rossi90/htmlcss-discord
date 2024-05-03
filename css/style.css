@@ -1,0 +1,184 @@
+/* proprietà generali */
+*{
+    margin:0;
+    box-sizing: border-box;
+}
+
+/* regole barra di navigazione in alto */
+#navbar{
+    height: 50px;
+    background-color: #ADD8E6;
+}
+
+#navbar, #flex-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+ul.nav-list{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    padding: 0;
+}
+
+/* definizione colonne */
+.col-nav{
+    min-width: 250px;
+    min-height: 30px;
+    line-height: 25px;
+    background-color: goldenrod;
+    border: 2px rgb(120, 48, 120) dashed;
+}
+
+.center{
+    min-width: 600px;
+}
+
+li a{
+    text-align: center;
+    text-decoration: none;
+    margin: 0 10px;
+
+}
+
+#logo{
+    text-align: left;
+}
+
+#login {
+    text-align: right;
+}
+
+/* proprietà parte centrale */
+
+/* rettangoli */
+div.row{
+    /* height: 500px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* colore solo per le righe dispari */
+div.row:nth-child(odd){
+    background-color: #D3D3D3;
+}
+
+#start{
+    background-color: #00008B;
+}
+
+/* box per il testo iniziale della prima parte */
+.text-box{
+    min-height: 400px;
+    min-width: 700px;
+    background-color: #EE82EE; 
+    border:rgb(120, 48, 120) 2px dashed;
+    margin: 45px 0;
+}
+
+/* box immagini */
+
+figure.image, aside.text, .box{
+    margin: 45px 0;
+}
+
+div.box-row{
+    display:flex;
+    justify-content: center;
+}
+
+figure.image{
+    min-height: 400px;
+    min-width: 700px;
+    background-color: #1E90FF;
+    border: rgb(120, 48, 120) 2px dashed;
+}
+
+/* box testo affiancato a immagini */
+aside.text{
+    min-height: 400px;
+    min-width: 400px;
+    background-color: #FFC0CB;
+    border: rgb(120, 48, 120) 2px dashed;
+}
+
+/* parte con immagine e testo in basso */
+
+div.box-row{
+    background-color: #D3D3D3;
+}
+
+.box{
+    min-width: 1100px;
+    min-height: 800px;
+    background-color:#228B22;
+}
+
+/* regole parte footer */
+
+footer{
+    background-color:#23272A;
+}
+
+/* regole del contenuto social e contenuto informativo */
+aside.sidebar,
+#nav-footer{
+    margin-top: 10px;
+    margin-bottom: 25px;
+    min-height: 600px;
+}
+
+div.flex-footer{
+    display: flex;
+    justify-content: center;
+    align-items:flex-start;
+}
+
+aside.sidebar{
+    display: flex;
+    min-width: 300px;
+    background-color: #F08080;
+    border: rgb(120, 48, 120) 2px dashed;
+}
+
+#nav-footer{
+    display: flex;
+    min-width: 800px;
+    border:rgb(120, 48, 120) 2px dashed;
+}
+
+div.col-footer{
+    width: calc(100% / 4);
+    background-color: #20B2AA;
+    border: rgb(255, 255, 255) 2px dashed;
+}
+
+/* regole per logo e bottone finale */
+
+#navbar-footer{
+    display: flex;
+    justify-content: center;
+    height: 100px;
+}
+
+#nav-content{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #7FFFD4;
+    margin: 20px 0;
+    min-width: 1100px;
+}
+
+.item-footer{
+    background-color: #FFB6C1;
+    padding: 8px 16px;
+    border:rgb(120, 48, 120) 2px dashed;
+}
+
+
+
