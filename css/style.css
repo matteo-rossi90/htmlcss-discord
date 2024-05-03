@@ -125,10 +125,6 @@ figure.image {
     width: 70%;
 }
 
-figure.image img{
-    width: 100%;
-}
-
 /* box testo affiancato a immagini */
 aside.text{
     width: 30%;
