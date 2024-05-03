@@ -315,3 +315,9 @@ div.btn-bottom{
     background-color:#255EE9;
     color:white;
 }
+
+/* Scritta sottolineata quando il curosre punta sull'oggetto */
+
+li a:hover{
+    text-decoration:underline;
+}
