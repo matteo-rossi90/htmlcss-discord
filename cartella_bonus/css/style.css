@@ -311,12 +311,19 @@ div.btn-bottom{
     color:white;
 }
 
+/* transition */
+
+.btn-input, .btn-download, .btn-open{
+    transition: 0.3s;
+}
+
 /* Scritta sottolineata quando il cursore punta sull'oggetto */
 
 li a:hover{
     text-decoration:underline;
 }
 
+/* onde */
 .wave img, .wave2 img{
     display: flex;
     flex-direction: row;
