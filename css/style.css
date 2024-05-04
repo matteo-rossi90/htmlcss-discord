@@ -76,7 +76,7 @@ div.row{
 
 /* colore solo per le righe dispari */
 div.row:nth-child(odd){
-    background-color: #D3D3D3;
+    background-color: #F6F6F6;
 }
 
 #start{
@@ -138,7 +138,7 @@ h2{
 div.box-row {
     display: flex;
     justify-content: center;
-    background-color: #D3D3D3;
+    background-color: #F6F6F6;
 }
 
 div.box{
