@@ -14,6 +14,11 @@
     align-items: center;
 }
 
+.container-nav{
+    margin: 0 auto;
+    width: 80%
+}
+
 /* regole barra di navigazione in alto */
 #navbar{
     height: 80px;
@@ -22,7 +27,7 @@
 
 #navbar, #flex-content{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
 }
 
@@ -35,8 +40,6 @@ ul.nav-list{
 
 /* definizione colonne */
 .col-nav{
-    /* min-width: 250px; */
-    /* min-height: 30px; */
     line-height: 25px;
 }
 
