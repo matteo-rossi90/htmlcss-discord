@@ -35,18 +35,13 @@ ul.nav-list{
 
 /* definizione colonne */
 .col-nav{
-    min-width: 250px;
-    min-height: 30px;
+    /* min-width: 250px; */
+    /* min-height: 30px; */
     line-height: 25px;
 }
 
 div.col-nav a img{
     margin: 20px 0;
-}
-
-.center{
-    /* Debug */
-    min-width: 600px;
 }
 
 li a{
