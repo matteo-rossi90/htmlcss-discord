@@ -181,7 +181,7 @@ aside.sidebar,
 
 div.flex-footer{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items:flex-start;
 }
 
@@ -189,6 +189,7 @@ aside.sidebar{
     display: flex;
     flex-direction:column;
     justify-content: flex-start;
+    margin: 10px 25px 0 0;
 }
 
 div.language img{
@@ -213,8 +214,7 @@ div.language, div.social{
 
 #nav-footer{
     display: flex;
-    width: 50%;
-    margin: 40px 0;
+    margin: 40px 20px 20px 0;
 }
 
 h4{
@@ -224,7 +224,8 @@ h4{
 
 
 div.col-footer{
-    width: calc(100% / 4);
+    padding: 0 20px;
+    /* width: calc(100% / 4); */
 }
 
 /* regole per logo e bottone finale */
@@ -232,7 +233,6 @@ div.col-footer{
 #navbar-footer{
     display: flex;
     justify-content: center;
-    height: 100px;
 }
 
 #nav-content{
@@ -241,7 +241,6 @@ div.col-footer{
     justify-content: space-between;
     border-top: 1px solid #8ea1e1;
     padding: 20px 0;
-    width: 70%;
 }
 
 .item-footer{
