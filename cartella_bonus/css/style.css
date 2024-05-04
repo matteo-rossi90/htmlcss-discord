@@ -77,7 +77,7 @@ div.row{
 
 /* colore solo per le righe dispari */
 div.colored{
-    background-color: #D3D3D3;
+    background-color: #F6F6F6;
 }
 
 /* box per il testo iniziale della prima parte */
@@ -135,7 +135,7 @@ h2{
 div.box-row {
     display: flex;
     justify-content: center;
-    background-color: #D3D3D3;
+    background-color: #F6F6F6;
 }
 
 div.box{
@@ -331,6 +331,10 @@ li a:hover{
     width: 100%;
 }
 
+.rotate img{
+    transform: rotateY(180deg);
+}
+
 .wave2{
-    background-color: #D3D3D3;
+    background-color: #F6F6F6;
 }
