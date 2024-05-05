@@ -70,7 +70,7 @@ div.row{
 }
 
 .jumbotron{
-    height: 450px;
+    height: 100%;
     background-image: url('../img/jumbo.png');
     background-size: cover;
 }
@@ -86,7 +86,7 @@ div.colored{
     flex-direction: column;
     align-items: center;
     width: 55%;
-    margin: 0 auto;
+    margin: 8% auto;
 }
 
 /* proprietà testo jumbotron */
@@ -188,10 +188,11 @@ div.language img{
     width: 20px;
 }
 
-#social i{
-    margin: 20px 10px 0 0;
+#social a{
+    margin: 20px 25px 0 0;
     font-size: 20px;
     color: white;
+    text-decoration: none;
     
 }
 
