@@ -6,17 +6,21 @@
     font-family: 'Whitney', Helvetica, Helvetica, Arial, sans-serif;
 }
 
-.container{
+.container, .container-main, .container-nav{
     margin: 0 auto;
     width: 80%;
+}
+
+.container{
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.container-nav {
-    margin: 0 auto;
-    width: 80%
+.container-main{
+    display: flex;
+    justify-content: center;
+        
 }
 
 /* regole barra di navigazione in alto */
@@ -43,11 +47,6 @@ ul.nav-list{
     line-height: 25px;
 }
 
-/* div.col-nav a img{ */
-    /* margin: 20px 0; */
-/* } */
-
-
 li a{
     text-align: center;
     text-decoration: none;
@@ -61,12 +60,6 @@ li a{
 }
 
 /* proprietà parte jumbotron */
-
-div.row{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
 
 .jumbotron{
     height: 100%;
@@ -86,9 +79,13 @@ div.row{
     margin: 8% auto;
 }
 
-/* proprietà testo jumbotron */
+/* proprietà testi jumbotron e pulsanti */
 .text-content{
     text-align: left;
+}
+
+span.text-content-white{
+    margin: 10px;
 }
 
 .text-content-white{
@@ -112,44 +109,48 @@ h1{
 
 div.box-row {
     display: flex;
-    justify-content: center;
-    background-color: #F6F6F6;
+    justify-content: flex-start;
+    background-color: white;
     /* debug */
-    height: 900px;
+    /* height: 1900px; */
 }
 
 /* box prodotti */
 div.col-box{
-        width: calc(100% / 2);
-        height: 800px;
-        display: flex;
-        flex-direction: column;
-        justify-content: stretch;
-        align-items: center;
-        background-color: aquamarine;
-        border: 2px dashed black;
-        margin: 30px 0;
-        gap: 20px;
+    width: calc(100% / 2);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10% 0;
+
 }
 
 .box-big{
-    background-color: dodgerblue;
-    width: 600px;
-    height: 800px;
-    border: 1px dashed black;
+    background-color: #F6F6F6;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    margin: 10px;
+    border-radius: 20px;
 }
 
-.box-small{
-    background-color: rgb(255, 30, 236);
-    width: 600px;
-    height: 300px;
-    border: 1px dashed black;
+.box-big img{
+    width: 80%;
+    margin-top: 30px;
 }
 
 .box-null{
-    width: 600px;
-    height: 300px;
-    border: 1px dashed black;
+    height: 150px;
+}
+
+.box-content{
+    text-align: center;
+    margin: 20px;
+}
+
+.text-box-small{
+    text-align: left;
+    padding: 8px;
 }
 
 /* regole parte footer */
@@ -158,7 +159,7 @@ footer{
     background-color:#23272A;
 }
 
-/* regole del contenuto social e contenuto informativo */
+/* regole del contenuto social, intestazioni e contenuto informativo */
 
 h2 {
     font-size: 30px;
@@ -264,13 +265,16 @@ div.btn-container > button {
 }
 
 .btn-text-input{
-    font-size: 16px;
+    font-size: 20px;
 }
 
-.btn-open{
+.btn-open-big, .btn-open{
     background-color: black;
     color: white;
+}
 
+.btn-open-big{
+    padding: 20px 30px;
 }
 
 .btn-text-bottom {
@@ -278,7 +282,7 @@ div.btn-container > button {
     padding: 10px;
 }
 
-.btn-open:hover{
+.btn-open:hover, .btn-open-big:hover{
     background-color: white;
     color: black;
 }
@@ -295,6 +299,19 @@ div.btn-bottom{
     color: white;
 }
 
+.btn-big{
+    padding: 15px 35px;
+    font-size: 20px;
+}
+
+.btn-open i{
+    padding: 0 10px;
+}
+
+.btn-download i{
+    padding-right: 10px;
+}
+
 .btn-download:hover{
     background-color:#8EA1E1;
     color:white;
@@ -302,7 +319,7 @@ div.btn-bottom{
 
 /* transition */
 
-.btn-input, .btn-download, .btn-open{
+.btn-input, .btn-download, .btn-open, .btn-open-big{
     transition: 0.3s;
 }
 
