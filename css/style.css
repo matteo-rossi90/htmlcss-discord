@@ -243,10 +243,6 @@ div.col-footer{
     padding: 20px 0;
 }
 
-.item-footer{
-    padding: 8px 16px;
-}
-
 ul.footer-object li{
     line-height: 40px;
     color: white;
@@ -289,11 +285,15 @@ div.btn-bottom{
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 20px;
+    margin: 30px;
 }
 
 .btn-download{
     background-color: #8EA1E1;
     color: white;
+}
+
+.btn-text-bottom{
+    font-size: 20px;
 }
 
