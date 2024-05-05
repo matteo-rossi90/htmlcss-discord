@@ -7,7 +7,7 @@
 }
 
 .container{
-    margin: 50px auto;
+    margin: 0 auto;
     width: 80%;
     display: flex;
     justify-content: center;
@@ -22,7 +22,7 @@
 /* regole barra di navigazione in alto */
 #navbar{
     height: 80px;
-    background-color: #255EE9;
+    background-color: #23272A;
 }
 
 #navbar, #flex-content{
@@ -38,14 +38,14 @@ ul.nav-list{
     padding: 0;
 }
 
-/* definizione colonne */
+/* definizione colonne barra di navigazione in alto e contenuto */
 .col-nav{
     line-height: 25px;
 }
 
-div.col-nav a img{
-    margin: 20px 0;
-}
+/* div.col-nav a img{ */
+    /* margin: 20px 0; */
+/* } */
 
 
 li a{
@@ -60,9 +60,8 @@ li a{
     text-align: right;
 }
 
-/* proprietà parte centrale */
+/* proprietà parte jumbotron */
 
-/* rettangoli */
 div.row{
     display: flex;
     justify-content: center;
@@ -71,27 +70,25 @@ div.row{
 
 .jumbotron{
     height: 100%;
-    background-image: url('../img/jumbo.png');
+    background-color: #23272A;
     background-size: cover;
 }
 
-/* colore solo per le righe dispari */
-div.colored{
-    background-color: #F6F6F6;
+.jumbotron img{
+    width: 50%;
 }
 
 /* box per il testo iniziale della prima parte */
 .text-box{
     display: flex;
     flex-direction: column;
-    align-items: center;
     width: 55%;
     margin: 8% auto;
 }
 
 /* proprietà testo jumbotron */
 .text-content{
-    text-align: center;
+    text-align: left;
 }
 
 .text-content-white{
@@ -106,61 +103,53 @@ div.colored{
 
 h1{
     font-size: 50px;
+    font-weight: 800;
     margin: 20px 0;
     padding: 10px;
 }
 
-/* box immagini */
-
-figure.image, aside.text{
-    margin: 0 40px;
-}
-
-figure.image {
-    width: 70%;
-}
-
-/* box testo affiancato a immagini */
-aside.text{
-    width: 30%;
-}
-
-h2{
-    font-size: 30px;
-    margin: 20px 0;
-}
-
-/* parte con immagine e testo in basso */
+/* parte con box downolad prodotti */
 
 div.box-row {
     display: flex;
     justify-content: center;
     background-color: #F6F6F6;
+    /* debug */
+    height: 900px;
 }
 
-div.box{
-    width: 70%;
-    margin: 40px 0
+/* box prodotti */
+div.col-box{
+        width: calc(100% / 2);
+        height: 800px;
+        display: flex;
+        flex-direction: column;
+        justify-content: stretch;
+        align-items: center;
+        background-color: aquamarine;
+        border: 2px dashed black;
+        margin: 30px 0;
+        gap: 20px;
 }
 
-div.box img{
-    display: flex;
-    align-items: center;
+.box-big{
+    background-color: dodgerblue;
+    width: 600px;
+    height: 800px;
+    border: 1px dashed black;
 }
 
-#item-big{
-    width: 100%;
+.box-small{
+    background-color: rgb(255, 30, 236);
+    width: 600px;
+    height: 300px;
+    border: 1px dashed black;
 }
 
-#question{
-    display:flex;
-    align-items:center;
-    flex-direction:column;
-    justify-content: center;
-}
-
-h3{
-    font-size: 30px;
+.box-null{
+    width: 600px;
+    height: 300px;
+    border: 1px dashed black;
 }
 
 /* regole parte footer */
@@ -170,6 +159,11 @@ footer{
 }
 
 /* regole del contenuto social e contenuto informativo */
+
+h2 {
+    font-size: 30px;
+    margin: 20px 0;
+}
 
 div.flex-footer{
     display: flex;
@@ -253,7 +247,7 @@ div.btn-container{
     display: flex;
     flex-direction: row;
     align-items: center;
-    margin: 30px;
+    margin: 30px 0;
 }
 
 div.btn-container > button {
@@ -297,12 +291,12 @@ div.btn-bottom{
 }
 
 .btn-download{
-    background-color: #8EA1E1;
+    background-color:#255EE9;
     color: white;
 }
 
 .btn-download:hover{
-    background-color:#255EE9;
+    background-color:#8EA1E1;
     color:white;
 }
 
@@ -318,18 +312,3 @@ li a:hover{
     text-decoration:underline;
 }
 
-/* onde */
-.wave img, .wave2 img{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    width: 100%;
-}
-
-.rotate img{
-    transform: scaleX(-1);
-}
-
-.wave2{
-    background-color: #F6F6F6;
-}
