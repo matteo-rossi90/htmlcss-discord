@@ -69,7 +69,7 @@ div.row{
 }
 
 .jumbotron{
-    height: 450px;
+    height: 100%;
     background-image: url('../img/jumbo.png');
     background-size: cover;
 }
@@ -89,7 +89,7 @@ div.row:nth-child(odd){
     flex-direction: column;
     align-items: center;
     width: 55%;
-    margin: 0 auto;
+    margin: 8% auto;
 }
 
 /* proprietà testo jumbotron */
