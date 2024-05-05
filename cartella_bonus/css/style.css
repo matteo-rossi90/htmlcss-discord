@@ -253,7 +253,7 @@ div.btn-container{
     display: flex;
     flex-direction: row;
     align-items: center;
-    margin: 20px;
+    margin: 30px;
 }
 
 div.btn-container > button {
@@ -273,10 +273,18 @@ div.btn-container > button {
     font-size: 16px;
 }
 
+.btn-text-input, .btn-text-bottom{
+    padding: 10px;
+}
+
 .btn-open{
     background-color: black;
     color: white;
 
+}
+
+.btn-text-bottom {
+    font-size: 20px;
 }
 
 .btn-open:hover{
