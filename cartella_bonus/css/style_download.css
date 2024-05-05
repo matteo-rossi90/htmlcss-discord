@@ -130,7 +130,7 @@ div.col-box{
     display: flex;
     flex-direction: column;
     align-items:center;
-    margin: 10px;
+    margin: calc(8% / 4);
     border-radius: 20px;
 }
 
