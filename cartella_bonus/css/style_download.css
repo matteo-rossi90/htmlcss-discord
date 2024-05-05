@@ -1,0 +1,335 @@
+/* proprietà generali */
+*{
+    margin:0;
+    box-sizing: border-box;
+    list-style-type: none;
+    font-family: 'Whitney', Helvetica, Helvetica, Arial, sans-serif;
+}
+
+.container{
+    margin: 50px auto;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-nav {
+    margin: 0 auto;
+    width: 80%
+}
+
+/* regole barra di navigazione in alto */
+#navbar{
+    height: 80px;
+    background-color: #255EE9;
+}
+
+#navbar, #flex-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+ul.nav-list{
+    display: flex;
+    justify-content: center;
+    padding: 0;
+}
+
+/* definizione colonne */
+.col-nav{
+    line-height: 25px;
+}
+
+div.col-nav a img{
+    margin: 20px 0;
+}
+
+
+li a{
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    margin: 0 20px;
+
+}
+
+#login {
+    text-align: right;
+}
+
+/* proprietà parte centrale */
+
+/* rettangoli */
+div.row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.jumbotron{
+    height: 100%;
+    background-image: url('../img/jumbo.png');
+    background-size: cover;
+}
+
+/* colore solo per le righe dispari */
+div.colored{
+    background-color: #F6F6F6;
+}
+
+/* box per il testo iniziale della prima parte */
+.text-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 55%;
+    margin: 8% auto;
+}
+
+/* proprietà testo jumbotron */
+.text-content{
+    text-align: center;
+}
+
+.text-content-white{
+    color: white;
+}
+
+.paragraph{
+    font-size: 20px;
+    margin: 20px 0;
+    line-height: 30px;
+}
+
+h1{
+    font-size: 50px;
+    margin: 20px 0;
+    padding: 10px;
+}
+
+/* box immagini */
+
+figure.image, aside.text{
+    margin: 0 40px;
+}
+
+figure.image {
+    width: 70%;
+}
+
+/* box testo affiancato a immagini */
+aside.text{
+    width: 30%;
+}
+
+h2{
+    font-size: 30px;
+    margin: 20px 0;
+}
+
+/* parte con immagine e testo in basso */
+
+div.box-row {
+    display: flex;
+    justify-content: center;
+    background-color: #F6F6F6;
+}
+
+div.box{
+    width: 70%;
+    margin: 40px 0
+}
+
+div.box img{
+    display: flex;
+    align-items: center;
+}
+
+#item-big{
+    width: 100%;
+}
+
+#question{
+    display:flex;
+    align-items:center;
+    flex-direction:column;
+    justify-content: center;
+}
+
+h3{
+    font-size: 30px;
+}
+
+/* regole parte footer */
+
+footer{
+    background-color:#23272A;
+}
+
+/* regole del contenuto social e contenuto informativo */
+
+div.flex-footer{
+    display: flex;
+    justify-content: space-between;
+    align-items:flex-start;
+}
+
+aside.sidebar{
+    display: flex;
+    flex-direction:column;
+    justify-content: flex-start;
+    margin: 10px 25px 0 0;
+}
+
+div.language img{
+    width: 20px;
+}
+
+#social a{
+    margin: 20px 25px 0 0;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    
+}
+
+#sidebar-text{
+    color: #8EA1E1;
+    font-weight: 800;
+}
+
+div.language, div.social{
+    color: white;
+}
+
+#nav-footer{
+    display: flex;
+    margin: 40px 20px 20px 0;
+}
+
+h4{
+    color:#8EA1E1;
+    margin-left: 20px;
+}
+
+
+div.col-footer{
+    padding: 0 20px;
+}
+
+/* regole per logo e bottone finale */
+
+#navbar-footer{
+    display: flex;
+    justify-content: center;
+}
+
+#nav-content{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 1px solid #8ea1e1;
+    padding: 20px 0;
+}
+
+ul.footer-object li{
+    line-height: 40px;
+    color: white;
+}
+
+/* regole per pulsanti */
+
+button {
+    border-radius: 60px;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+div.btn-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 30px;
+}
+
+div.btn-container > button {
+    margin: 0 10px;
+}
+
+.btn-input{
+    background-color: white;
+}
+
+.btn-input:hover{
+    background-color:#8ea1e1;
+    color: white;
+}
+
+.btn-text-input{
+    font-size: 16px;
+}
+
+.btn-open{
+    background-color: black;
+    color: white;
+
+}
+
+.btn-text-bottom {
+    font-size: 20px;
+    padding: 10px;
+}
+
+.btn-open:hover{
+    background-color: white;
+    color: black;
+}
+
+div.btn-bottom{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+}
+
+.btn-download{
+    background-color: #8EA1E1;
+    color: white;
+}
+
+.btn-download:hover{
+    background-color:#255EE9;
+    color:white;
+}
+
+/* transition */
+
+.btn-input, .btn-download, .btn-open{
+    transition: 0.3s;
+}
+
+/* Scritta sottolineata quando il cursore punta sull'oggetto */
+
+li a:hover{
+    text-decoration:underline;
+}
+
+/* onde */
+.wave img, .wave2 img{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+
+.rotate img{
+    transform: scaleX(-1);
+}
+
+.wave2{
+    background-color: #F6F6F6;
+}
